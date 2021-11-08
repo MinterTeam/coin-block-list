@@ -1,0 +1,33 @@
+'use strict';
+
+var blockList = [
+	"BIPXBSC",
+	"BITCOIN",
+	"CARDANO",
+	"CELSIUS",
+	"CHAINLINK",
+	"COMPOUND",
+	"DECIMAL",
+	"ETHEREUM",
+	"EVERSTAKE",
+	"FINIKO",
+	"GROMAPP",
+	"HARMONY",
+	"HONEEBEE",
+	"HONEESWAP",
+	"HUBXBIP",
+	"NEWMINTER",
+	"NEWTON",
+	"PANCAKE",
+	"POLKADOT",
+	"STELLAR",
+	"SUSHISWAP",
+	"SYNTHETIX",
+	"TONCOIN",
+	"TONXBIP",
+	"UNISWAP",
+	"VKCOIN",
+	"VKCOINS"
+];
+
+module.exports = blockList;

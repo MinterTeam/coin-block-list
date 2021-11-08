@@ -1,12 +1,12 @@
 {
   "name": "minter-coin-block-list",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "List of Minter coins to block",
-  "main": "dist/blocklist.json",
+  "main": "dist/blocklist.cjs",
   "browser": {
-    "./dist/blocklist.json": "./dist/index.js"
+    "./dist/blocklist.cjs": "./dist/blocklist.js"
   },
-  "unpkg": "dist/index.min.js",
+  "unpkg": "dist/blocklist.min.js",
   "files": [
     "/data/",
     "/dist/"
@@ -19,6 +19,7 @@
     "build:json": "node build/json.js",
     "build:js": "rollup -c build/rollup.config.js",
     "build:js-minify": "rollup -c build/rollup.uglify.config.js",
+    "build:cjs": "rollup -c build/rollup.cjs.config.js",
     "prepublishOnly": "npm run test && npm run build",
     "test": "node test/blocklist.test.js"
   },
