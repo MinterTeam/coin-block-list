@@ -24,7 +24,6 @@
 		"NEWTON",
 		"PANCAKE",
 		"POLKADOT",
-		"POLKADOT",
 		"STELLAR",
 		"SUSHISWAP",
 		"SYNTHETIX",
