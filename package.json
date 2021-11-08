@@ -1,0 +1,49 @@
+{
+  "name": "minter-coin-block-list",
+  "version": "0.0.1",
+  "description": "List of Minter coins to block",
+  "main": "dist/blocklist.json",
+  "browser": {
+    "./dist/blocklist.json": "./dist/index.js"
+  },
+  "unpkg": "dist/index.min.js",
+  "files": [
+    "/data/",
+    "/dist/"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "npm run build:json && npm run build:js && npm run build:js-minify",
+    "build:json": "node build/json.js",
+    "build:js": "rollup -c build/rollup.config.js",
+    "build:js-minify": "rollup -c build/rollup.uglify.config.js",
+    "prepublishOnly": "npm run test && npm run build",
+    "test": "node test/blocklist.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MinterTeam/coin-block-list.git"
+  },
+  "keywords": [
+    "blocklist",
+    "blacklist",
+    "scam"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MinterTeam/coin-block-list/issues"
+  },
+  "homepage": "https://github.com/MinterTeam/coin-block-list#readme",
+  "engines": {
+    "node": ">=14.18.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-json": "^4.1.0",
+    "rollup": "^2.59.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "toml": "^3.0.0"
+  }
+}
