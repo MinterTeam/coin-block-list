@@ -1,6 +1,6 @@
 {
   "name": "minter-coin-block-list",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "List of Minter coins to block",
   "main": "dist/blocklist.cjs",
   "browser": {
@@ -15,7 +15,7 @@
     "test": "test"
   },
   "scripts": {
-    "build": "npm run build:json && npm run build:js && npm run build:js-minify",
+    "build": "npm run build:json && npm run build:js && npm run build:js-minify && npm run build:cjs",
     "build:json": "node build/json.js",
     "build:js": "rollup -c build/rollup.config.js",
     "build:js-minify": "rollup -c build/rollup.uglify.config.js",
