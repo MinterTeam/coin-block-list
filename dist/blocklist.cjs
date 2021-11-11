@@ -24,6 +24,7 @@ var blockList = [
 	"HONEESWAP",
 	"HONEEWOOD",
 	"HUBXBIP",
+	"INUSHIBA",
 	"MANA",
 	"MINTER",
 	"MINTERUSD",

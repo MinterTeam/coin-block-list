@@ -28,6 +28,7 @@
 		"HONEESWAP",
 		"HONEEWOOD",
 		"HUBXBIP",
+		"INUSHIBA",
 		"MANA",
 		"MINTER",
 		"MINTERUSD",
