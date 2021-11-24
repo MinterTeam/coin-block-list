@@ -1,6 +1,6 @@
 {
   "name": "minter-coin-block-list",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "List of Minter coins to block",
   "main": "dist/blocklist.cjs",
   "browser": {

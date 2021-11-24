@@ -24,6 +24,7 @@ blockList = [
     "HUBXBIP",
     "MANA",
     "MINTER",
+    "MINTER3",
     "MINTERUSD",
     "MINTUSD",
     "MUSDT",

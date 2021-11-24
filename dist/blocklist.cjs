@@ -27,6 +27,7 @@ var blockList = [
 	"INUSHIBA",
 	"MANA",
 	"MINTER",
+	"MINTER3",
 	"MINTERUSD",
 	"MINTUSD",
 	"MUSDT",
