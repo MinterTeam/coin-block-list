@@ -35,7 +35,6 @@ var blockList = [
 	"PANCAKE",
 	"POLKADOT",
 	"POLYGON",
-	"REDDCOIN",
 	"SHIBAINU",
 	"SHIKYH1",
 	"SQUID",
