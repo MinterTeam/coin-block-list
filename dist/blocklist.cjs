@@ -51,6 +51,7 @@ var blockList = [
 	"USDM",
 	"USDSC",
 	"USDT",
+	"USDTB",
 	"VKCOIN",
 	"VKCOINS"
 ];

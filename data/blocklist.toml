@@ -22,6 +22,7 @@ blockList = [
     "HONEESWAP",
     "HONEEWOOD",
     "HUBXBIP",
+    "INUSHIBA",
     "MANA",
     "MINTER",
     "MINTER3",
@@ -31,8 +32,8 @@ blockList = [
     "NEWMINTER",
     "NEWTON",
     "PANCAKE",
-    "POLYGON",
     "POLKADOT",
+    "POLYGON",
     "SHIBAINU",
     "SHIKYH1",
     "SQUID",
@@ -48,7 +49,7 @@ blockList = [
     "USDM",
     "USDSC",
     "USDT",
+    "USDTB",
     "VKCOIN",
-    "VKCOINS",
-    "INUSHIBA"
+    "VKCOINS"
 ]

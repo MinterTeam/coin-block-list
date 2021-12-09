@@ -55,6 +55,7 @@
 		"USDM",
 		"USDSC",
 		"USDT",
+		"USDTB",
 		"VKCOIN",
 		"VKCOINS"
 	];
