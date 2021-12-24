@@ -41,6 +41,7 @@ var blockList = [
 	"POLYGON",
 	"SHIBAINU",
 	"SHIKYH1",
+	"SQDGAME",
 	"SQUID",
 	"STELLAR",
 	"SUSHISWAP",
